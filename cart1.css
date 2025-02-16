@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+  background-color: #2d006b;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+body {
+  margin-top: 100px; /* Adjust this value if the navbar height changes */
+}
+.logo img {
+  padding: 0;
+  margin-left: 1rem;
+  height: 90px;
+  width: 90px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #ca9953;
+}
+#search-input {
+  width: 200px;
+  padding: 8px 35px 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+  background-color: white;
+  color: #333;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1rem;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  text-decoration: none;
+}
+
+.search-icon i {
+  font-size: 14px;
+}
+
+.nav-icons a {
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+  margin-right: 1rem;
+}
+
+.nav-icons a:hover {
+  color: #ca9953;
+}
+section {
+  height: 100vh;
+  width: 100vw;
+}
+.row-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+}
+#card1 {
+  background-color: #e5e5e5;
+  height: max-content;
+  width: 250px;
+  margin: 40px 30px 40px 30px;
+  border-radius: 20px;
+  transition: transform 0.5s ease-in-out;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-content h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.3rem;
+  color: #7b1fa2;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.add-to-cart {
+  background-color: #7b1fa2;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #6a1b9a;
+}
+
+#card2 {
+  background-color: #e5e5e5;
+  height: max-content;
+  width: 250px;
+  border-radius: 20px;
+  margin: 40px 30px 40px 30px;
+  transition: transform 0.5s ease-in-out;
+  padding: 1.5rem;
+  text-align: center;
+}
+#card3 {
+  background-color: #e5e5e5;
+  height: max-content;
+  width: 250px;
+  border-radius: 20px;
+  margin: 40px 30px 40px 30px;
+  transition: transform 0.5s ease-in-out;
+  padding: 1.5rem;
+  text-align: center;
+}
+#card4 {
+  background-color: #e5e5e5;
+  height: max-content;
+  width: 250px;
+  border-radius: 20px;
+  margin: 40px 30px 40px 30px;
+  transition: transform 0.5s ease-in-out;
+  padding: 1.5rem;
+  text-align: center;
+}
+#card5 {
+  background-color: #e5e5e5;
+  height: max-content;
+  width: 250px;
+  border-radius: 20px;
+  margin: 40px 30px 40px 30px;
+  transition: transform 0.5s ease-in-out;
+  padding: 1.5rem;
+  text-align: center;
+}
+#card6 {
+  background-color: #e5e5e5;
+  height: max-content;
+  width: 250px;
+  border-radius: 20px;
+  margin: 40px 30px 40px 30px;
+  transition: transform 0.5s ease-in-out;
+  padding: 1.5rem;
+  text-align: center;
+}
+#card7 {
+  background-color: #e5e5e5;
+  height: max-content;
+  width: 250px;
+  border-radius: 20px;
+  margin: 40px 30px 40px 30px;
+  transition: transform 0.5s ease-in-out;
+  padding: 1.5rem;
+  text-align: center;
+}
+#card8 {
+  background-color: #e5e5e5;
+  height: max-content;
+  width: 250px;
+  border-radius: 20px;
+  margin: 40px 30px 40px 30px;
+  transition: transform 0.5s ease-in-out;
+  padding: 1.5rem;
+  text-align: center;
+}
+.image img {
+  object-fit: cover;
+}
+/*hover effects for divs*/
+#card1:hover {
+  transform: translateY(-10px);
+}
+#card2:hover {
+  transform: translateY(-10px);
+}
+#card3:hover {
+  transform: translateY(-10px);
+}
+#card4:hover {
+  transform: translateY(-10px);
+}
+#card5:hover {
+  transform: translateY(-10px);
+}
+#card6:hover {
+  transform: translateY(-10px);
+}
+#card7:hover {
+  transform: translateY(-10px);
+}
+#card8:hover {
+  transform: translateY(-10px);
+}
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    position: absolute;
+    margin-top: 0;
+  }
+
+  .logo img {
+    height: 70px;
+    width: 70px;
+    margin-left: 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .nav-icons {
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #search-input {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .search-icon {
+    right: 20px;
+  }
+
+  .row-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #card1,
+  #card2,
+  #card3,
+  #card4,
+  #card5,
+  #card6,
+  #card7,
+  #card8 {
+    width: 70%;
+    margin: 20px 0;
+  }
+  #card1 {
+    margin-top: 190px;
+  }
+}
